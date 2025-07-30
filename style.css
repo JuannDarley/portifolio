@@ -13,6 +13,22 @@ body {
   color: #f6f6f6;
 }
 
+.cabecalho {
+  padding: 5% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho__menu__link {
+  font-family: 'montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color:#85ae72
+}
+
 .titulo-destaque {
   color: #85ae72;
 }
