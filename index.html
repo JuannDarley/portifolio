@@ -9,7 +9,12 @@
   </head>
 
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link">Home</a>
+        <a class="cabecalho__menu__link">Sobre mim</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
@@ -19,12 +24,25 @@
         <p class="apresentacao__conteudo__texto">Olá! Sou Juan Darlei, estou começando na área de tecnologia, e atualmente estou cursando o Program ONE, um curso da Alura em parceria com a Oracle para formar novos desenvolvedores. Estou buscando uma oportunidade de ingressar no mercado de trabalho como desenvolvedor Back-end.</p>
         </p>
         <div class ="apresentacao__links">
-          <a class="apresentacao__links__link" href="https://instagram.com/juanndarley">Instagram</a>
-          <a class="apresentacao__links__link" href="https://github.com/JuannDarley">Github</a>
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes: </h2>
+            <a class="apresentacao__links__link" href="https://github.com/JuannDarley">
+            <img src="./assets/github.png" alt="Github Icon" />
+            Github
+          </a>
+          <a class="apresentacao__links__link" href="https://www.linkedin.com/in/juan-d-s-pereira/">
+            <img src="./assets/linkedin.png" alt="LinkedIn Icon" />
+            LinkedIn
+          </a>
+          <a class="apresentacao__links__link" href="https://instagram.com/juanndarley">
+            <img src="./assets/instagram.png" alt="Instagram Icon" />
+            Instagram
+          </a>
         </div>
       </section>
-      <img src="./img/profile.png" alt="Profile JuannDarley" />
+      <img class="apresentacao__image-profile" src="./assets/profile.png" alt="Profile Juan Darlei" />
     </main>
-    <footer></footer>
+    <footer>
+      <P class="rodape">Desenvolvido por Juan Darlei</P>
+    </footer>
   </body>
 </html>
