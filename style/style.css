@@ -109,6 +109,64 @@ body {
     border-radius: 16px;
  }
 
+ .caixa {
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 8px;
+  width: 80%; 
+  margin: 0 auto; 
+  font: var(--font-titulo);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--cor-terciaria);
+ 
+}
+
+
+.caixa__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 21.5px 0;
+  cursor: pointer;
+  
+  background-color: var(--cor-primaria);
+  border-radius: 8px; 
+}
+ /*Pagina de Curriculo*/
+
+.caixa__lista {
+  list-style-position: inside;
+  color: var(--cor-texto);
+  font-size: 1.25rem;
+  font-family: var(--font-texto);
+  font-weight: 500;
+  padding: 2% 5%;
+  background-color: var(--cor-primaria);
+}
+
+
+.caixa[open] {
+  
+  padding: 21.5px 20px; 
+  box-shadow: 2px 2px 4px var(--cor-terciaria);
+  border-bottom: none; 
+}
+
+.caixa[open] .caixa__titulo {
+  
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  
+}
+
+.caixa[open] .caixa__titulo::after {
+  content: '▼'; 
+ margin-right: 20px;
+  font-size: 1.5rem; 
+  
+}
+
  .rodape {
   color: var(--cor-primaria);
   background-color: var(--cor-secundaria);
@@ -138,4 +196,6 @@ body {
   }
 
   
-  }
+ }
+  
+  
