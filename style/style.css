@@ -129,7 +129,6 @@ body {
   gap: 16px;
   padding: 21.5px 0;
   cursor: pointer;
-  
   background-color: var(--cor-primaria);
   border-radius: 8px; 
 }
@@ -194,7 +193,9 @@ body {
   .apresentacao__conteudo {
     width: auto;
   }
-
+  .caixa {
+    width: auto;
+  }
   
  }
   
